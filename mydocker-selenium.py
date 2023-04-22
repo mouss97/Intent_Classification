@@ -24,8 +24,8 @@ def refresh():
     password = driver.find_element(By.XPATH, '//*[@id="password"]')
 
     # enter username and password
-    username.send_keys("ilyes.hamdi@student-cs.fr")
-    password.send_keys("halawalaIMO99@")
+    username.send_keys("")
+    password.send_keys("")
 
     # click on the login button
     driver.find_element(By.XPATH, "/html/body/div[3]/main/div/div/section/div/div[2]/form/div/button").click()
